@@ -11,17 +11,18 @@ int main(int argc, char** argv) {
 	cout << "skriv ett tal mellan 10-20" << endl;
 	cin >> tal;
 	
-	cout << "Skriv sänkningen av talet" << endl;
+	cout << "Skriv sankningen av talet" << endl;
 	cin >> tal2;
 	
-	cout << "Skriv lägsta talet men med samma multiplikationslinje" << endl;
+	cout << "Skriv lagsta talet men med samma multiplikationslinje" << endl;
 	cin >> tal3;
-	
- 	cout << tal << endl;
  	
-	while (tal >= tal3){
-	tal = tal - tal2;
-	cout << tal << endl;
+ 	
+ 	
+	for (int i = tal; i >= tal3; i--){
+
+	cout << i << endl;
+	i = i- 2;
 	}
 	
 	return 0;

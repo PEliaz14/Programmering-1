@@ -4,19 +4,27 @@
 
 using namespace std;
 
+
 int main(int argc, char** argv) {
 	
-	int total, tal;
-	
-	cout << "skriv ett heltal" << endl;
-	cin >> tal;
 
 	
-	
-	for (int i = tal; i > 0; i--) {
-	cout << i << endl;
+	for(int i = 0; i < 10; i++){
+		for(int k = 0; k < i + 1; k++){
+			if (k == 0){
+				cout << "Baa";
+			}
+			else{
+				cout << ", Baa" ;
+			}
+						
+		}
+		cout << endl;
 	}
-
-
+	
+	
+	
+	
+	
 	return 0;
 }
