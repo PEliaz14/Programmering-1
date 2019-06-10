@@ -14,14 +14,17 @@ int main(int argc, char** argv) {
 	cout << "Overtid" << endl;
 	cin >> over;
 	
-	if (tim <= 159) {
+	if (tim < 160) {
 		cout << "Ingen overtid" << endl;
 		total2 = tim *100;
 		cout << "Kr tjanat" << total2 << endl;
 		return 0;
 	}
-	
-	total = tim * 100 + over * 150;
+	else{
+		total = tim * 100 + over * 150;
+		
+	}
+
 	
 	cout << "Kr tjanat " << total << endl;
 	

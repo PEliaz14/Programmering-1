@@ -5,11 +5,11 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	
-	int Skriv1, heltal1, heltal2, total;
+	int heltal, heltal2, Skriv1;
+	double total;
 	
 	cout <<"Hel tal " << endl;
-	cin >> heltal1;
+	cin >> heltal;
 	
 	
 	
@@ -21,19 +21,19 @@ int main(int argc, char** argv) {
 	
 	if(Skriv1 == 1) { 
 	
-	total = heltal1 + heltal2;
+	total = heltal + heltal2;
 	}
 	
 	else if(Skriv1 == 2) {
-	total = heltal1 - heltal2;
+	total = heltal - heltal2;
 	}
 	
 	else if(Skriv1 == 3) {
-	total = heltal1 / heltal2;
+	total = heltal / heltal2;
 	}
 	
 	else if(Skriv1 == 4)
-	{total = heltal1 * heltal2;
+	{total = heltal * heltal2;
 	}
 	
 	
